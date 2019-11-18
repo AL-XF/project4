@@ -1,0 +1,12 @@
+(.devops) fu@fu-VirtualBox:~/DevOps_Microservices/project-ml-microservice-kubernetes$ sudo ./run_kubernetes.sh 
+deployment.apps/project4 created
+NAME       READY   UP-TO-DATE   AVAILABLE   AGE
+project4   0/1     1            0           0s
+error: unable to forward port because pod is not running. Current status=Pending
+(.devops) fu@fu-VirtualBox:~/DevOps_Microservices/project-ml-microservice-kubernetes$ sudo ./run_kubernetes.sh 
+Error from server (AlreadyExists): deployments.apps "project4" already exists
+NAME       READY   UP-TO-DATE   AVAILABLE   AGE
+project4   1/1     1            1           15s
+Forwarding from 127.0.0.1:8080 -> 80
+Forwarding from [::1]:8080 -> 80
+Handling connection for 8080
