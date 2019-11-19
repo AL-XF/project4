@@ -53,7 +53,9 @@ To prepare the enviroment:
 1. Start Minikube by `sudo minikube start`
 2. Make sure Kubernetes is running by run `sudo kubectl config view`
 3. Create and run an app on Kubernetes by run `sudo ./run_kubernetes.sh`
-4. Delete the app by run `sudo kubectl delete deploy/project4`
+4. Run `sudo kubectl get pod` to find out the pod name
+5. Run `sudo kubectl logs <pod name>` to get the full log of this pod.
+6. Delete the app by run `sudo kubectl delete deploy/project4`
 
 ## Files in the repository
 
