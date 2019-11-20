@@ -10,7 +10,7 @@ dockerpath=liiwza/udacityproject4
 
 # Step 2:  
 # Authenticate & tag
-docker login --username=liiwza --password=12345play
+docker login
 tag=project4
 echo "Docker ID and Image: $dockerpath"
 
